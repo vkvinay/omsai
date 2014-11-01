@@ -1,0 +1,84 @@
+.downtree{
+	width: 750px;
+	margin: auto;
+}
+
+.blanknode{
+}
+
+.valuenode{
+	text-align: center;
+}
+.valuenode img{
+	width: 80px;
+	height: 80px;
+}
+.valuenode p{
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	padding: 0;
+}
+
+.disabled,.pending{
+	cursor: pointer;	
+}
+.active{
+	cursor: pointer;	
+}
+
+.topbordernode{
+	border-top: solid 1px red;
+	margin-top: 3px;
+}
+.leftbordernode{
+	border-top: solid 1px red;
+	border-left: solid 1px red;
+	width: 50px;
+	margin-left: 50px;
+	margin-top: 3px;
+}
+.rightbordernode{
+	border-top: solid 1px red;
+	border-right: solid 1px red;
+	width: 50px;
+	margin-right: 50px;
+	margin-top: 3px;
+}
+
+/**************** hover popup box ************/
+.popbox{
+	display: none;
+	position: absolute;
+	z-index: 888;
+	width: 650px;
+	height: 90px;
+	background-color: white;
+	border: solid 1px rgb(0,162,232);
+	padding: 10px;
+}
+
+.parent{
+	cursor: pointer;
+	margin-left: 20px;
+}
+.parent:HOVER {
+	font-weight: bold;
+}
+
+.poplabel{
+	float: left;
+	width: 100px;
+	font-weight: bold;
+}
+.popgap{
+	float: left;
+	width: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.popdata{
+	float: left;
+	width: 150px;
+}
